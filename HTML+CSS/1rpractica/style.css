@@ -1,0 +1,24 @@
+table *, table {
+    font-family: 'Times New Roman', Times, serif;
+    border-width: 2pt;
+    border-color: #ff0100;
+    border-style: solid;
+}
+
+table{
+    width: 50%;
+    height: fit-content;
+}
+
+main{
+    display: flex;
+    border-width: 2pt;
+    width: 100%;
+    border-color: #808080;
+    border-style: solid;
+    background-color: #f5f5dc;
+
+    align-items: center;
+    justify-content: center;
+}
+
