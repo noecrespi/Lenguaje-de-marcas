@@ -1,0 +1,118 @@
+header{
+    display: flex;
+    flex-direction: column;
+}
+
+header section.title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header section.title a{
+    text-decoration: none;
+    text-align: center;
+    font-size: 10vw;
+    font-family: 'Dancing Script', cursive;
+    color: #71628a;
+}
+
+header section.title img{
+    width: auto;
+    height: 25vh;
+}
+
+header section.nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+header section.nav a{
+    text-decoration: none;
+    color: #c3e6d6;
+    font-size: 1.7vw;
+}
+
+main article,
+main aside {
+    font-size: 1.5vw;
+    font-family: 'Dancing Script', cursive;
+}
+
+main article{
+    color: #ac9ac9
+}
+
+main article div{
+    background-color: #d2c6e6;
+    color: black;
+    padding: 0.5vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main article .img{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+
+main article img{
+    width: auto;
+    height: 30vw;
+}
+
+main aside{
+    color: #ac9ac9
+}
+
+main aside div {
+    background-color: #d2c6e6;
+    color:black;
+    padding: 1vw;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+main aside img{
+    width: auto;
+    height: 50vh;
+}
+
+main aside a{
+    text-decoration: none;
+    color:black;
+}
+
+main aside .text{
+    display: flex;
+    flex-direction: row;
+
+}
+
+footer{
+    background-color:rgb(75, 75, 75);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+footer h3 {
+    font-size: 1vw;
+}
+
+footer h3:first-child {
+    margin-left: 1vw;
+}
