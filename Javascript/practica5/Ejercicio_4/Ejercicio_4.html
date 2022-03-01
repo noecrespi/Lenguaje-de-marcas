@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style4.css">
+</head>
+
+<body>
+
+    <main>
+        <h1>Aplicar un estil d'una classe del CSS</h1>
+        <section>
+            <p>Això és una secció de la pàgina</p>
+        </section>
+        <h2>
+            Diez fenómenos astronómicos que no te puedes perder en el 2021
+        </h2>
+        <p class="ocultar" onclick="mostrarParrafo()">Mostrar párrafo</p>
+        <p class="visible" onclick="ocultarParrafo()">Este nuevo año ofrece os placeres celestes, como encuentros
+            planetarios, lluvias de oros y hasta un eclipse de «luna de sangre»</p>
+        <p>
+            A pesar de un año plagado de confinamientos y aislamiento social, cielos estrellados del 2020 nos han traído
+            consuelo yasombro un desfile de fenómenos celestes cautivadores. El calendario onómico del año pasado estuvo
+            a
+            rebosar de vistas memorables, e ellas la aparición del cometa NEOWISE, las mejores vistas de écada de Marte,
+            una
+            luna azul en Halloween y la esperada e órica conjunción entre Júpiter y Saturno
+        </p>
+        <p>
+            Durante todo el 2021 también habrá decenas de fenómenos onómicos a la vista. Esta es nuestra selección de
+            los
+            menoscelestes que vale la pena apuntar en el calendario de este o año
+        </p>
+        <h3>
+            11 de febrero: conjunción de Venus y Júpite
+        </h3>
+        <p>
+            Los madrugadores podrán disfrutar de un encuentro cercano entre dos os planetas más brillantes de nuestros
+            cielos: Venusy Júpiter. mple vista, ambos planetas parecerán puntos brillantes y la ja parecerá estar tan
+            cerca
+            en el firmamento queserá visible al o tiempo por un telescopio. Un plus es que el planeta Saturno ncontrará
+            a la
+            derecha de los planetas.
+        </p>
+
+        <h3>
+            9 y 10 de marzo: Formación cuádrupl
+        </h3>
+        <p>
+            Astrónomos aficionados de todo el mundo podrán ver un impresionante o cósmico de cuatro mundos en el cielo
+            matutino del sudeste. urio, Júpiter y Saturno aparecerán en una alineación casi ecta, mientras que la
+            cercana
+            luna creciente enmarcará el trío etario. Cada planeta parecerá un punto brillante —Mercurio el débil y
+            Júpiter
+            el más brillante— y todos serán visibles sin la a de un telescopio
+        </p>
+        <h3>
+            26 de mayo: Eclipse lunar total de «luna de sangre
+        </h3>
+        <p>
+            Las personas que estén en el oeste de Norteamérica, el oeste de mérica, Australia y Sudeste Asiático podrán
+            presenciar cómo la se tiñe de rojo durante un eclipse lunar total. Este fenómeno onómico espectacular ocurre
+            cuando el Sol, la Tierra y la Luna n alineados de forma que la sombra de nuestro planeta cubre por leto la
+            faz
+            de la Luna.
+        </p>
+    </main>
+
+    <script>
+        /* Actividad 4
+
+Ocultar parrafo y volverlo a enseñar 
+*/
+
+        function ocultarParrafo() {
+            let parrafo = document.getElementsByTagName("p");
+            parrafo[1].className = "visible";
+            parrafo[2].className = "ocultar";
+        }
+
+        function mostrarParrafo() {
+            let parrafo = document.getElementsByTagName("p");
+            parrafo[1].className = "ocultar";
+            parrafo[2].className = "visible";
+        }
+    </script>
+
+</body>
+
+</html>
