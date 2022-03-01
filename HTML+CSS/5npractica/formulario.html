@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Asociación de vecinos</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- importación del estilo de letra utilizado para títulos -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <header>
+        
+        <!-- titulo de la web -->
+        <section class="title">
+            <h1> <a href="home.html"> Asociación de vecinos </a> </h1>
+            <a href="home.html"> <img src="./imagenes/indexImg.png" alt="" > </a>
+        </section>
+        
+        <!-- barra de navefgación -->
+        <section class="nav">
+            <nav>
+                <ul>
+                    <li> <a href="historia.html"> Historia </a></li>
+                    <li> <a href="actividades.html"> Actividades </a></li>
+                    <li> <a href="formulario.html"> Formulario </a></li>
+                </ul>
+            </nav>
+        </section>
+
+    </header>
+
+    <main>
+        
+        <!-- Metodod del formulario -->
+        <form action="mailto:correo@gmail.com" method="post">
+            
+            <!-- Nombre del usuario -->
+            <p>Nombre: 
+                <input type="text" name="Nombre completo" id="name" size="45" maxlength= "30">
+            </p> 
+            
+            <!-- Contraseña del usuario -->
+            <p>Contrasenya: <input type="password" name="contraseña" id="password" placeholder="Elige una contraseña" size="45" pattern="(?=^.{8,12}$)((?=.*\d)|(?=.*\W+))(?![.\n])(?=.*[A-Za-z]).*$"required>
+            </p>
+            
+            <!-- Elegir un color -->
+            <p>Color de ojos: 
+                <input type="color" name="Color de ojos del usuario" id="ojos" size="45"  maxlength= "30">
+            </p>            
+            
+            <!-- Elife el sexo -->
+            <p>Sexo: 
+                <input checked type="radio" name="sexo" id="hombre" value="h"> Hombre 
+                <input type="radio" name="sexo" id="mujer" value="m"> Mujer 
+            </p>
+
+            <!-- Da la edad -->
+            <p>Años: 
+                <input type="number" name="nacido" id="edad" min="16" max="99" required>
+            </p>
+
+            <!-- Dejamos que le navegador compruebe el correo ya que las comprobaciones van cambiando -->
+            <p>Introduce el correo electrónico: 
+                <input type="email" name="email" id="email">
+            </p>
+
+            <!-- Lista de actividades -->
+            <p>Lista de actividades para apuntarse:
+                <input type="checkbox"  name="Lista de actividades para apuntarse" id="canto"> Canto coral
+                <input type="checkbox"  name="Lista de actividades para apuntarse" id="sevillanas"> Sevillanas
+                <input type="checkbox"  name="Lista de actividades para apuntarse" id="ajedrez"> Ajedrez
+                <input type="checkbox"  name="Lista de actividades para apuntarse" id="aikido"> Aikido
+                <input type="checkbox"  name="Lista de actividades para apuntarse" id="cocina"> Cocina
+            </p>
+
+            <!-- Enviar formulario -->
+            <p>
+                <input type="submit" value="Enviar formulario" />
+            
+
+            <!-- Eliminar formulario -->
+                <input type="reset" value="Eliminar formulario" />
+            </p>
+
+        </form>
+        
+    </main>
+
+        <!-- Pie de página -->
+        <footer>
+        
+            <h3> Noelia Crespí </h3>
+            <h3> 02/01/2022 </h3>
+            <h3> Contacta con nosotros a traves de nuestro correo <a href="mailto:vecinospalma@gmail.com"> vecinospalma@gmail.com </a></h3>
+            <h3> Nos encontramos en <a href="https://goo.gl/maps/bT7B7QviNpjboJ129">Calle  Adrià Ferrà, 21,Palma 07007 (Illes Balears)</
+            a></h3>
+        
+        </footer>
+    
+    </body>
+    
+</html>
+
