@@ -1,0 +1,7 @@
+main p.ocultar {
+    color: white;
+}
+
+main p.visible{
+    color: rgb(0, 0, 0);
+}
