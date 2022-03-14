@@ -1,0 +1,14 @@
+main h1.h1{
+    color: white;
+    font-size: 10px;
+    text-align: center;
+    background-color: rgb(23, 26, 51);
+}
+
+main section.section{
+    font-size: 0.7em;
+    text-align: center;
+    width: auto;
+    height: 250px;
+    border: solid 3px blue;
+}
